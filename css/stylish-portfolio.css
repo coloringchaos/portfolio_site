@@ -446,8 +446,8 @@ hr.small {
 /* About */
 .about {
     /*z-index: 1000; doesnt work*/
-    background: #222424;
-    padding: 50px 0;
+    /*background: #222424;*/
+    padding-bottom: 50px;
     /*overflow-y: scroll;*/
 }
 .about-text {
@@ -530,7 +530,8 @@ hr.small {
 
 /* Portfolio */
 .portfolio {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 .portfolio-item {
